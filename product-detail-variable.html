@@ -1,0 +1,1680 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="images/L-favicon.png" rel="shortcut icon">
+    <title>Leinné - Thời trang bền vững</title>
+
+    <!-- <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css"> -->
+
+    <!--====== Google Font ======-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+
+    <!--====== Vendor Css ======-->
+    <link rel="stylesheet" href="css/vendor.css">
+
+    <!--====== Utility-Spacing ======-->
+    <link rel="stylesheet" href="css/utility.css">
+
+    <!--====== App ======-->
+    <link rel="stylesheet" href="css/app.css">
+    
+</head>
+
+<body class="config">
+    <div class="preloader is-active">
+        <div class="preloader__wrap">
+            <!-- hình vòng tròn load web -->
+            <img class="preloader__img" src="images/preloader.png" alt=""></div>
+    </div>
+
+<!--====== Main App ======-->
+    <div id="app"> <!-- app.css -->
+        <!--====== Main Header ======-->
+        <header class="header--style-1"> <!-- app.css màu bg trắng-->
+            <!--====== Nav 1 ======-->
+            <nav class="primary-nav primary-nav-wrapper--border" style="position:fixed !important; z-index:1030; background-color: #ffffff"> 
+                <!-- style="position:fixed !important để cố định menu; z-index:1030 để đưa menu lên lớp trên;  -->
+                <div class="container">
+
+                    <!--====== Primary Nav ======-->
+                    <div class="primary-nav">
+                        <!--====== Main Logo ======-->
+                        <a class="main-logo" href="index.html"> <!-- logo của shop được gắn thẻ <a> link đến trang index-->
+                            <img src="images/logo/Leinne-01.png" alt="" style="width: 87px;"></a>
+                        <!--====== End - Main Logo ======-->
+                        
+                        <!--====== Dropdown Main plugin ======-->
+                        <div class="menu-init" id="navigation2">
+
+                            <button class="btn btn--icon toggle-button toggle-button--secondary fas fa-bars" type="button"></button>
+
+                            <!--====== Menu ======-->
+                            <div class="ah-lg-mode">
+
+                                <span class="ah-close">✕ Đóng</span>
+
+                                <!--====== List ======-->
+                                <ul class="ah-list ah-list--design2 ah-list--link-color-secondary">
+                                    <li>
+                                        <a href="index.html">TRANG CHỦ</a>
+                                    </li>
+
+                                    <li class="has-dropdown">
+                                        <a href="shop-grid-left.html">CỬA HÀNG<i class="fas fa-angle-down u-s-m-l-6"></i></a>
+                                        <!-- dropdown -->
+                                        <span class="js-menu-toggle"></span>
+                                        <ul style="width:160px">
+                                            <li>
+                                                <a href="shop-grid-left.html">Quần áo</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop-grid-left.html">Nón</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop-grid-left.html">Túi</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop-grid-left.html">Giày</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop-grid-left.html">Trang sức</a>
+                                            </li>                       
+                                        </ul>
+                                    </li> 
+
+                                    <li>
+                                        <a>GIỚI THIỆU</a>
+                                    </li>
+
+                                    <li class="has-dropdown">
+                                        <a>BÀI VIẾT<i class="fas fa-angle-down u-s-m-l-6"></i></a>
+                                        <!--====== Dropdown ======-->
+                                        <span class="js-menu-toggle"></span>
+                                        <ul style="width:200px">
+                                            <li>
+                                                <a>Bài viết mới</a></li>
+                                            <li>
+                                                <a>Bài viết nổi bật</a></li>
+                                            <li>
+                                        </ul>
+                                        <!--====== End - Dropdown ======-->
+                                    </li>
+
+                                    <li class="has-dropdown">
+                                        <a>TRANG PHỤ<i class="fas fa-angle-down u-s-m-l-6"></i></a>
+                                        <!--====== Dropdown ======-->
+                                        <span class="js-menu-toggle"></span>
+                                        <ul style="width:200px">    
+
+                                            <li class="has-dropdown has-dropdown--ul-left-100">
+                                                <a href="dashboard.html">Thông tin tài khoản<i class="fas fa-angle-down i-state-right u-s-m-l-6"></i></a>
+                                                <!--====== Dropdown ======-->
+                                                <span class="js-menu-toggle"></span>
+                                                <ul style="width:200px">
+                                                    <li class="has-dropdown has-dropdown--ul-left-100">
+                                                        <a href="dashboard.html">Quản lý tài khoản<i class="fas fa-angle-down i-state-right u-s-m-l-6"></i></a>
+                                                        <!--====== Dropdown ======-->
+                                                        <span class="js-menu-toggle"></span>
+                                                        <ul style="width:180px">
+                                                            <li>
+                                                                <a href="dash-edit-profile.html">Cập nhật thông tin</a></li>
+                                                            <li>
+                                                                <a href="dash-address-book.html">Cập nhật địa chỉ</a></li>
+                                                            <li>
+                                                                <a href="dash-manage-order.html">Quản lý đơn hàng</a></li>
+                                                        </ul>
+                                                        <!--====== End - Dropdown ======-->
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="dash-my-profile.html">Tài khoản của tôi</a>
+                                                    </li>
+
+                                                    <li class="has-dropdown has-dropdown--ul-left-100">
+                                                        <a href="dash-address-book.html">Địa chỉ<i class="fas fa-angle-down i-state-right u-s-m-l-6"></i></a>
+                                                        <!--====== Dropdown ======-->
+                                                        <span class="js-menu-toggle"></span>
+                                                        <ul style="width:180px">
+                                                            <li>
+                                                                <a href="dash-address-make-default.html">Địa chỉ mặc định</a></li>
+                                                            <li>
+                                                                <a href="dash-address-add.html">Thêm địa chỉ</a></li>
+                                                            <li>
+                                                                <a href="dash-address-edit.html">Quản lý địa chỉ</a></li>
+                                                        </ul>
+                                                        <!--====== End - Dropdown ======-->
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="dash-track-order.html">Tra cứu đơn hàng</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="dash-my-order.html">Đơn hàng</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="dash-payment-option.html">Phương thức thanh toán</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="dash-cancellation.html">Lịch sử hoàn tiền / hủy đơn</a>
+                                                    </li>
+                                                </ul>
+                                                <!--====== End - Dropdown ======-->
+                                            </li>
+
+                                            <li class="has-dropdown has-dropdown--ul-left-100">
+                                                <a>Admin<i class="fas fa-angle-down i-state-right u-s-m-l-6"></i></a>
+                                                <!--====== Dropdown ======-->
+                                                <span class="js-menu-toggle"></span>
+                                                <ul style="width:200px">
+                                                    <li>
+                                                        <a href="Product_list.html">Danh sách sản phẩm</a></li>
+                                                    <li>
+                                                        <a href="addUpdateProduct.html">Thêm sản phẩm</a></li>
+                                                </ul>
+                                                <!--====== End - Dropdown ======-->
+                                            </li>
+
+                                            <li>
+                                                <a href="product-detail-variable.html">Chi tiết sản phẩm</a></li> 
+
+                                            <li>
+                                                <a href="cart.html">Giỏ hàng</a></li>
+                                            <li>
+                                                <a href="checkout.html">Thanh toán</a></li>
+                                            <li>
+                                                <a href="404.html">404</a></li>
+                                        </ul>
+                                        <!--====== End - Dropdown ======-->
+                                    </li>
+                                                                                            
+                                </ul>
+                                <!--====== End - List ======-->
+                            </div>
+                            <!--====== End - Menu ======-->
+                        </div>
+                        <!--====== End - Dropdown Main plugin ======-->
+
+                        <form class="main-form" style="width: 15%;">
+                            <label for="main-search"></label>
+                            <!-- placeholder hiện chữ "Tìm kiếm" khi chưa nhập text -->
+                            <input class="input-text input-text--border-radius input-text--style-1" type="text" id="main-search" placeholder="Tìm kiếm">
+                            <!-- icon tìm kiếm -->
+                            <button class="btn btn--icon fas fa-search main-search-button" type="submit"></button> 
+                        </form>
+
+                        <!--====== Dropdown Main plugin ======-->
+                        <div class="menu-init" id="navigation">
+                            <button class="btn btn--icon toggle-button toggle-button--secondary fas fa-cogs" type="button"></button>
+                            <!--====== Menu ======-->
+                            <div class="ah-lg-mode">        
+                                <span class="ah-close">✕ Đóng</span> <!-- màn hình hẹp mới có -->                         
+                                <!--====== List ======-->
+                                <ul class="ah-list ah-list--design1 ah-list--link-color-secondary">                    
+                                    <li class="has-dropdown" data-tooltip="tooltip" data-placement="left" title="Cài đặt">
+                                        <a><i class="fas fa-user-cog"></i></a>
+                                        <!--====== Dropdown cho menu "Cài đặt" ======-->
+                                        <span class="js-menu-toggle"></span>
+                                        <ul style="width:120px">
+                                            <li class="has-dropdown has-dropdown--ul-right-100">
+                                                <a>Ngôn ngữ<i class="fas fa-angle-down u-s-m-l-6"></i></a>
+                                                <!--====== Dropdown cho "Ngôn ngữ" ======-->
+                                                <span class="js-menu-toggle"></span>
+                                                <ul style="width:120px">
+                                                    <li>
+                                                        <a class="u-c-brand">TIẾNG VIỆT</a></li>
+                                                    <li>
+                                                        <a>ENGLISH</a></li>
+                                                    <li>
+                                                        <a>FRANCAIS</a></li>
+                                                </ul>
+                                                <!--====== End - Dropdown ======-->
+                                            </li>
+
+                                            <li class="has-dropdown has-dropdown--ul-right-100">
+                                                <a>Tiền tệ<i class="fas fa-angle-down u-s-m-l-6"></i></a>
+                                                <!--====== Dropdown cho "Tiền tệ" ======-->
+                                                <span class="js-menu-toggle"></span>
+                                                <ul style="width:225px">
+                                                    <li>
+                                                        <a class="u-c-brand">đ - ĐỒNG</a></li>
+                                                    <li>
+                                                        <a>$ - US DOLLAR</a></li>
+                                                    <li>
+                                                        <a>€ - EURO</a></li>
+                                                </ul>
+                                                <!--====== End - Dropdown ======-->
+                                            </li>
+                                        </ul>
+                                        <!--====== End - Dropdown ======-->
+                                    </li>
+
+                                    <li class="has-dropdown" data-tooltip="tooltip" data-placement="left" title="Tài khoản"> <!-- menu dropdown cho "Tài khoản" -->               
+                                        <a><i class="far fa-user-circle"></i></a>
+
+                                        <!--====== Dropdown cho menu "Tài khoản" ======-->
+                                        <span class="js-menu-toggle"></span>
+                                        <ul style="width:120px">
+                                            <li>
+                                                <a href="dashboard.html"><i class="fas fa-user-circle u-s-m-r-6"></i>
+                                                    <span>Tài khoản</span></a>
+                                            </li> <!-- link đến trang dashboard-->
+                                            <li>
+                                                <a href="signup.html"><i class="fas fa-user-plus u-s-m-r-6"></i>
+                                                    <span>Đăng ký</span></a>
+                                            </li> <!-- link đến trang đăng ký -->
+                                            <li>
+                                                <a href="signin.html"><i class="fas fa-lock u-s-m-r-6"></i>
+
+                                                    <span>Đăng nhập</span></a>
+                                            </li> <!-- link đến trang đăng nhập -->
+                                            <li>
+                                                <a href="signup.html"><i class="fas fa-lock-open u-s-m-r-6"></i>
+                                                    <span>Đăng xuất</span></a>
+                                            </li> <!-- link đến trang đăng xuất -->
+                                        </ul>
+                                        <!--====== End - Dropdown ======-->
+                                    </li>
+                                
+                                    <li class="has-dropdown">
+                                        <a class="mini-cart-shop-link" href="cart.html"><i class="fas fa-shopping-bag"></i>
+                                            <span class="total-item-round">2</span></a>
+
+                                        <!--====== Dropdown ======-->
+                                        <span class="js-menu-toggle"></span>
+                                        <div class="mini-cart">
+                                            <!--====== Mini Product Container ======-->
+                                            <div class="mini-product-container gl-scroll u-s-m-b-15">
+                                                <!--====== Card for mini cart ======-->
+                                                <div class="card-mini-product">
+                                                    <div class="mini-product">
+                                                        <div class="mini-product__image-wrapper">
+
+                                                            <a class="mini-product__link" href="product-detail-variable.html">
+
+                                                                <img class="u-img-fluid" src="https://i.pinimg.com/474x/d2/28/76/d228765f2b52069889c7eebfdd4f6d21.jpg" alt=""></a></div>
+                                                        <div class="mini-product__info-wrapper">
+
+                                                            <span class="mini-product__category">
+
+                                                                <a href="shop-grid-left.html">Túi</a></span>
+
+                                                            <span class="mini-product__name">
+
+                                                                <a href="product-detail-variable.html">Túi raffia Tara Super Mini</a></span>
+
+                                                            <span class="mini-product__quantity">1 x</span>
+
+                                                            <span class="mini-product__price">1.464.000₫</span></div>
+                                                    </div>
+
+                                                    <a class="mini-product__delete-link far fa-trash-alt"></a>
+                                                </div>
+                                                <!--====== End - Card for mini cart ======-->
+
+                                                <!--====== Card for mini cart ======-->
+                                                <div class="card-mini-product">
+                                                    <div class="mini-product">
+                                                        <div class="mini-product__image-wrapper">
+
+                                                            <a class="mini-product__link" href="product-detail-variable.html">
+
+                                                                <img class="u-img-fluid" src="https://i.pinimg.com/474x/db/76/e1/db76e15dc13017d46772ba72ff065085.jpg" alt=""></a></div>
+                                                        <div class="mini-product__info-wrapper">
+
+                                                            <span class="mini-product__category">
+
+                                                                <a href="shop-grid-left.html">Trang sức</a></span>
+
+                                                            <span class="mini-product__name">
+
+                                                                <a href="product-detail-variable.html">Vòng ngọc trai Candy pearl</a></span>
+
+                                                            <span class="mini-product__quantity">1 x</span>
+
+                                                            <span class="mini-product__price">1.863.000₫</span></div>
+                                                    </div>
+
+                                                    <a class="mini-product__delete-link far fa-trash-alt"></a>
+                                                </div>
+                                                <!--====== End - Card for mini cart ======-->
+
+                                            <!-- ====== Mini Product Statistics ======-->
+                                            <div class="mini-product-stat">
+                                                <div class="mini-total">
+
+                                                    <span class="subtotal-text">Tạm tính</span>
+
+                                                    <span class="subtotal-value">3.372.000₫</span></div>
+                                                <div class="mini-action">
+
+                                                    <a class="mini-link btn--e-brand-b-2" href="checkout.html">Thanh toán</a>
+
+                                                    <a class="mini-link btn--e-transparent-secondary-b-2" href="cart.html">Xem giỏ hàng</a></div>
+                                            </div>
+                                            <!--====== End - Mini Product Statistics ======-->
+                                        </div>
+                                        <!--====== End - Dropdown ======-->
+                                    </li>
+                                </ul>
+                                <!--====== End - List ======-->
+                            </div>
+                            <!--====== End - Menu ======-->
+                        </div>
+                        <!--====== End - Dropdown Main plugin ======-->
+                    </div>
+                    <!--====== End - Primary Nav ======-->
+                </div>
+            </nav>
+            <!--====== End - Nav 1 ======-->
+        </header>
+
+
+
+
+        <!--====== App Content ======-->
+        <div class="app-content">
+
+            <!--====== Section 1 ======-->
+            <div class="u-s-p-t-90">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+
+                            <!--====== Product Breadcrumb ======-->
+                            <div class="pd-breadcrumb u-s-m-b-30">
+                                <ul class="pd-breadcrumb__list">
+                                    <li class="has-separator">
+
+                                        <a href="shop-grid-left.html">Cửa Hàng</a></li>
+                                    <li class="has-separator">
+
+                                        <a href="shop-grid-left.html">Giày</a></li>
+                                    <li class="has-separator">
+
+                                        <a href="product-detail-variable.html">Bãi biển Slides phiên bản giới hạn</a></li>
+                                </ul>
+                            </div>
+                            <!--====== End - Product Breadcrumb ======-->
+
+
+                            <!--====== Product Detail Zoom ======-->
+                            <div class="pd u-s-m-b-30">
+                                <div class="slider-fouc pd-wrap">
+                                    <div id="pd-o-initiate">
+                                        <div class="pd-o-img-wrap" data-src="https://leinne.com/cdn/shop/products/IMG_7915_1024x1024@2x.jpg?v=1689332987">
+
+                                            <img class="u-img-fluid" src="https://leinne.com/cdn/shop/products/IMG_7915_1024x1024@2x.jpg?v=1689332987" data-zoom-image="https://leinne.com/cdn/shop/products/IMG_7915_1024x1024@2x.jpg?v=1689332987" alt=""></div>
+                                        <div class="pd-o-img-wrap" data-src="https://leinne.com/cdn/shop/products/untitled-26_1024x1024@2x.jpg?v=1667366959">
+
+                                            <img class="u-img-fluid" src="https://leinne.com/cdn/shop/products/untitled-26_1024x1024@2x.jpg?v=1667366959" data-zoom-image="https://leinne.com/cdn/shop/products/untitled-26_1024x1024@2x.jpg?v=1667366959" alt=""></div>
+                                        <div class="pd-o-img-wrap" data-src="https://leinne.com/cdn/shop/files/LeinneRaffiaBeachSlide_Ricefields_limitededitionteatreeleavesdyed-2_1024x1024@2x.jpg?v=1689332987">
+
+                                            <img class="u-img-fluid" src="https://leinne.com/cdn/shop/files/LeinneRaffiaBeachSlide_Ricefields_limitededitionteatreeleavesdyed-2_1024x1024@2x.jpg?v=1689332987" data-zoom-image="https://leinne.com/cdn/shop/files/LeinneRaffiaBeachSlide_Ricefields_limitededitionteatreeleavesdyed-2_1024x1024@2x.jpg?v=1689332987" alt=""></div>
+                                        <div class="pd-o-img-wrap" data-src="https://leinne.com/cdn/shop/products/IMG_7918_1024x1024@2x.jpg?v=1689332987">
+
+                                            <img class="u-img-fluid" src="https://leinne.com/cdn/shop/products/IMG_7918_1024x1024@2x.jpg?v=1689332987" data-zoom-image="https://leinne.com/cdn/shop/products/IMG_7918_1024x1024@2x.jpg?v=1689332987" alt=""></div>
+                                        <div class="pd-o-img-wrap" data-src="https://leinne.com/cdn/shop/products/LeinneRaffiaBeachSlide_Agarwood_1024x1024@2x.jpg?v=1689332987">
+
+                                            <img class="u-img-fluid" src="https://leinne.com/cdn/shop/products/LeinneRaffiaBeachSlide_Agarwood_1024x1024@2x.jpg?v=1689332987" data-zoom-image="https://leinne.com/cdn/shop/products/LeinneRaffiaBeachSlide_Agarwood_1024x1024@2x.jpg?v=1689332987" alt=""></div>
+                                    </div>
+
+                                    <span class="pd-text">Chạm để zoom</span>
+                                </div>
+                                <div class="u-s-m-t-15">
+                                    <div class="slider-fouc">
+                                        <div id="pd-o-thumbnail">
+                                            <div>
+
+                                                <img class="u-img-fluid" src="https://leinne.com/cdn/shop/products/IMG_7915_1024x1024@2x.jpg?v=1689332987" alt=""></div>
+                                            <div>
+
+                                                <img class="u-img-fluid" src="https://leinne.com/cdn/shop/products/untitled-26_1024x1024@2x.jpg?v=1667366959" alt=""></div>
+                                            <div>
+
+                                                <img class="u-img-fluid" src="https://leinne.com/cdn/shop/files/LeinneRaffiaBeachSlide_Ricefields_limitededitionteatreeleavesdyed-2_1024x1024@2x.jpg?v=1689332987" alt=""></div>
+                                            <div>
+
+                                                <img class="u-img-fluid" src="https://leinne.com/cdn/shop/products/IMG_7918_1024x1024@2x.jpg?v=1689332987" alt=""></div>
+                                            <div>
+
+                                                <img class="u-img-fluid" src="https://leinne.com/cdn/shop/products/LeinneRaffiaBeachSlide_Agarwood_1024x1024@2x.jpg?v=1689332987" alt=""></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--====== End - Product Detail Zoom ======-->
+                        </div>
+                        <div class="col-lg-7">
+
+                            <!--====== Product Right Side Details ======-->
+                            <div class="pd-detail">
+                                <div>
+
+                                    <span class="pd-detail__name"> Bãi biển Slides phiên bản giới hạn</span></div>
+                                <div>
+                                    <div class="pd-detail__inline">
+
+                                        <span class="pd-detail__price">3,627,000₫</span>
+
+                                        <span class="pd-detail__discount">(-20%)</span><del class="pd-detail__del">4,543,000₫</del></div>
+                                </div>
+                                <div class="u-s-m-b-15">
+                                    <div class="pd-detail__rating gl-rating-style"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+
+                                        <span class="pd-detail__review u-s-m-l-4">
+
+                                            <a data-click-scroll="#view-review">23 Đánh giá</a></span></div>
+                                </div>
+                                <div class="u-s-m-b-15">
+                                    <div class="pd-detail__inline">
+
+                                        <span class="pd-detail__stock">Còn 58 sản phẩm</span>
+
+                                        <!-- <span class="pd-detail__left">Only 2 left</span>-->
+                                        </div>
+                                </div>
+                                <div class="u-s-m-b-15">
+
+                                    <span class="pd-detail__preview-desc">Một tác phẩm nghệ thuật từ bản chất thô, mộc mạc - Beach Slides phiên bản giới hạn ở Raffia là sự hài hòa của màu sắc và vật liệu tự nhiên. Chủ đề Raffia được nhuộm bằng tay từ thực vật: lá trà, lá cây gỗ sappan và nghệ, bằng tay của thợ thủ công của chúng tôi. Mỗi cặp có màu sắc khác nhau và độc đáo, với các đường ngoằn ngoèo như một điểm nhấn, mang một tinh thần du lịch phiêu lưu.</span></div>
+                                <!-- <div class="u-s-m-b-15">
+                                    <div class="pd-detail__inline">
+
+                                        <span class="pd-detail__click-wrap"><i class="far fa-heart u-s-m-r-6"></i>
+
+                                            <a href="signin.html">thêm vào danh sách yêu thích</a>
+
+                                            <span class="pd-detail__click-count">(0)</span></span></div>
+                                </div> -->
+                                <div class="u-s-m-b-15">
+                                    <div class="pd-detail__inline">
+
+                                        <span class="pd-detail__click-wrap"><i class="far fa-envelope u-s-m-r-6"></i>
+
+                                            <a href="signin.html">Liên lạc với tôi khi sản phẩm hạ giá</a>
+
+                                            <span class="pd-detail__click-count">(27)</span></span></div>
+                                </div>
+                                <div class="u-s-m-b-15">
+                                    <ul class="pd-social-list">
+                                        <li>
+
+                                            <a class="s-fb--color-hover" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li>
+                                            <a class="s-youtube--color-hover" href="#"><i class="fab fa-youtube"></i></a></li>
+                                        <!-- <li>
+                                            
+                                            <a class="s-tw--color-hover" href="#"><i class="fab fa-twitter"></i></a></li> -->
+                                        <li>
+
+                                            <a class="s-insta--color-hover" href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <!-- <li>
+
+                                            <a class="s-wa--color-hover" href="#"><i class="fab fa-whatsapp"></i></a></li> -->
+                                        <li>
+
+                                            <a class="s-gplus--color-hover" href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="u-s-m-b-15">
+                                    <form class="pd-detail__form">
+                                        <div class="u-s-m-b-15">
+
+                                            <span class="pd-detail__label u-s-m-b-8">Màu sắc:</span>
+                                            <div class="pd-detail__color">
+                                                <div class="color__radio">
+
+                                                    <input type="radio" id="jet" name="color" checked>
+
+                                                    <label class="color__radio-label" for="jet" style="background-color: yellowgreen"></label></div>
+                                                <div class="color__radio">
+
+                                                    <input type="radio" id="folly" name="color">
+
+                                                    <label class="color__radio-label" for="folly" style="background-color: greenyellow"></label></div>
+                                                <div class="color__radio">
+
+                                                    <input type="radio" id="yellow" name="color">
+
+                                                    <label class="color__radio-label" for="yellow" style="background-color: green"></label></div>
+                                                <div class="color__radio">
+
+                                                    <input type="radio" id="granite-gray" name="color">
+
+                                                    <label class="color__radio-label" for="granite-gray" style="background-color: #cb6843"></label></div>
+                                               
+                                            </div>
+                                           
+                                        <div class="u-s-m-b-15">
+
+                                            <span class="pd-detail__label u-s-m-b-8">Kích cỡ:</span>
+                                            <div class="pd-detail__size">
+                                                <div class="size__radio">
+
+                                                    <input type="radio" id="36" name="size" checked>
+
+                                                    <label class="size__radio-label" for="36">36</label></div>
+                                                <div class="size__radio">
+
+                                                    <!-- <input type="radio" id="small" name="size"> -->
+
+                                                    <!-- <label class="size__radio-label" for="xxl">Small</label></div>
+                                                <div class="size__radio">
+
+                                                    <input type="radio" id="medium" name="size">
+
+                                                    <label class="size__radio-label" for="medium">Medium</label></div>
+                                                <div class="size__radio">
+
+                                                    <input type="radio" id="large" name="size">
+
+                                                    <label class="size__radio-label" for="xxl">Large</label></div>
+                                                <div class="size__radio"> -->
+
+                                                    <input type="radio" id="37" name="size">
+
+                                                    <label class="size__radio-label" for="37">37</label></div>
+                                                <div class="size__radio">
+
+                                                    <input type="radio" id="38" name="size">
+
+                                                    <label class="size__radio-label" for="38">38</label></div>
+                                                    <div class="size__radio">
+
+                                                        <input type="radio" id="39" name="size">
+    
+                                                        <label class="size__radio-label" for="39">39</label></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pd-detail-inline-2">
+                                            <div class="u-s-m-b-15">
+
+                                                <!--====== Input Counter ======-->
+                                                <div class="input-counter">
+
+                                                    <span class="input-counter__minus fas fa-minus"></span>
+
+                                                    <input class="input-counter__text input-counter--text-primary-style" type="text" value="1" data-min="1" data-max="1000">
+
+                                                    <span class="input-counter__plus fas fa-plus"></span></div>
+                                                <!--====== End - Input Counter ======-->
+                                            </div>
+                                            <div class="u-s-m-b-15">
+
+                                                <button class="btn btn--e-brand-b-2" type="submit">Thêm vào giỏ hàng</button></div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="u-s-m-b-15">
+
+                                    <span class="pd-detail__label u-s-m-b-8">Chính sách sản phẩm:</span>
+                                    <ul class="pd-detail__policy-list">
+                                        <li><i class="fas fa-check-circle u-s-m-r-8"></i>
+
+                                            <span>Bảo vệ người tiêu dùng</span></li>
+                                        <li><i class="fas fa-check-circle u-s-m-r-8"></i>
+
+                                            <span>Cam két hoàn tiền nếu nhận được sản phẩm không đúng mô tả</span></li>
+                                        <li><i class="fas fa-check-circle u-s-m-r-8"></i>
+
+                                            <span>Đổi trả hàng trong 7 ngày tính từ khi nhận hàng.</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--====== End - Product Right Side Details ======-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--====== Product Detail Tab ======-->
+            <div class="u-s-p-y-90">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="pd-tab">
+                                <div class="u-s-m-b-30">
+                                    <ul class="nav pd-tab__list">
+                                        <li class="nav-item">
+
+                                            <a class="nav-link" data-toggle="tab" href="#pd-desc">Chi tiết</a></li>
+                                        <li class="nav-item">
+
+                                            <a class="nav-link" data-toggle="tab" href="#pd-tag">TAGS</a></li>
+                                        <li class="nav-item">
+
+                                            <a class="nav-link active" id="view-review" data-toggle="tab" href="#pd-rev">ĐÁNH GIÁ 
+
+                                                <span>(23)</span></a></li>
+                                    </ul>
+                                </div>
+                                <div class="tab-content">
+
+                                    <!--====== Tab 1 ======-->
+                                    <div class="tab-pane" id="pd-desc">
+                                        <div class="pd-tab__desc">
+                                            <div class="u-s-m-b-15">
+                                                <p>Một tác phẩm nghệ thuật từ bản chất thô, mộc mạc - Beach Slides phiên bản giới hạn ở Raffia là sự hài hòa của màu sắc và vật liệu tự nhiên. Chủ đề Raffia được nhuộm bằng tay từ thực vật: lá trà, lá cây gỗ sappan và nghệ, bằng tay của thợ thủ công của chúng tôi. Mỗi cặp có màu sắc khác nhau và độc đáo, với các đường ngoằn ngoèo như một điểm nhấn, mang một tinh thần du lịch phiêu lưu.</p>
+                                            </div>
+                                            <div class="u-s-m-b-30"><iframe src="https://www.youtube.com/embed/qKqSBm07KZk" allowfullscreen></iframe></div>
+                                            <div class="u-s-m-b-30">
+                                                <ul>
+                                                    <li><i class="fas fa-check u-s-m-r-8"></i>
+
+                                                        <span>Bảo vệ người tiêu dùng</span></li>
+                                                    <li><i class="fas fa-check u-s-m-r-8"></i>
+
+                                                        <span>Cam két hoàn tiền nếu nhận được sản phẩm không đúng mô tả</span></li>
+                                                    <li><i class="fas fa-check u-s-m-r-8"></i>
+
+                                                        <span>Đổi trả hàng trong 7 ngày tính từ khi nhận hàng.</span></li>
+                                                </ul>
+                                            </div>
+                                            <div class="u-s-m-b-15">
+                                                <h4>Thông tin sản phẩm</h4>
+                                            </div>
+                                            <div class="u-s-m-b-15">
+                                                <div class="pd-table gl-scroll">
+                                                    <table>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Thành phần chính</td>
+                                                                <td>Raffia tự nhiên</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Màu sắc</td>
+                                                                <td>Tự nhiên, Nghệ, Lá trà, Terra Cotta</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Chiều cao gót</td>
+                                                                <td>1 cm</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Kích thước đóng gói</td>
+                                                                <td>30 cm</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Cân nặng</td>
+                                                                <td>0,5 kg</td>
+                                                            </tr>
+                                                            <!-- <tr>
+                                                                <td>Neck</td>
+                                                                <td>Round Neck</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Pieces Count</td>
+                                                                <td>1 Piece</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Occasion</td>
+                                                                <td>Casual</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Shipping Weight (kg)</td>
+                                                                <td>0.5</td>
+                                                            </tr> -->
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--====== End - Tab 1 ======-->
+
+
+                                    <!--====== Tab 2 ======-->
+                                    <div class="tab-pane" id="pd-tag">
+                                        <div class="pd-tab__tag">
+                                            <h2 class="u-s-m-b-15">ADD YOUR TAGS</h2>
+                                            <div class="u-s-m-b-15">
+                                                <form>
+
+                                                    <input class="input-text input-text--primary-style" type="text">
+
+                                                    <button class="btn btn--e-brand-b-2" type="submit">ADD TAGS</button></form>
+                                            </div>
+
+                                            <span class="gl-text">Use spaces to separate tags. Use single quotes (') for phrases.</span>
+                                        </div>
+                                    </div>
+                                    <!--====== End - Tab 2 ======-->
+
+
+                                    <!--====== Tab 3 ======-->
+                                    <div class="tab-pane fade show active" id="pd-rev">
+                                        <div class="pd-tab__rev">
+                                            <div class="u-s-m-b-30">
+                                                <div class="pd-tab__rev-score">
+                                                    <div class="u-s-m-b-8">
+                                                        <h2>23 Đánh giá - 4.6 (Tổng thể)</h2>
+                                                    </div>
+                                                    <div class="gl-rating-style-2 u-s-m-b-8"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+                                                    <div class="u-s-m-b-8">
+                                                        <h4>Chúng tôi muốn lắng nghe bạn!!!</h4>
+                                                    </div>
+
+                                                    <span class="gl-text">Kể cho chúng tôi trải nghiệm của bạn khi mua mặt hàng này đi!</span>
+                                                </div>
+                                            </div>
+                                            <div class="u-s-m-b-30">
+                                                <form class="pd-tab__rev-f1">
+                                                    <div class="rev-f1__group">
+                                                        <div class="u-s-m-b-15">
+                                                            <h2>Có 23 đánh giá cho Bãi biển Slides phiên bản giới hạn</h2>
+                                                        </div>
+                                                        <div class="u-s-m-b-15">
+
+                                                            <label for="sort-review"></label><select class="select-box select-box--primary-style" id="sort-review">
+                                                                <option selected>Lọc theo: Đánh giá tốt nhất</option>
+                                                                <option>Lọc theo: Đánh giá tệ nhất</option>
+                                                            </select></div>
+                                                    </div>
+                                                    <div class="rev-f1__review">
+                                                        <div class="review-o u-s-m-b-15">
+                                                            <div class="review-o__info u-s-m-b-8">
+ 
+                                                                <span class="review-o__name">Minh Thành</span> 
+
+                                                                <span class="review-o__date">9 Dec 2023 10:57:43</span></div>
+                                                            <div class="review-o__rating gl-rating-style u-s-m-b-8"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                                                <!-- <div class="gl-rating-style-2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> -->
+
+                                                                <span>(4.5)</span></div>
+
+                                                                
+                                                            <p class="review-o__text">Đời em chưa đi cái đôi slides nào mà nó phê như cái đôi này! Sẽ còn ủng hộ</p>
+                                                        </div>
+                                                        <div class="review-o u-s-m-b-15">
+                                                            <div class="review-o__info u-s-m-b-8"> 
+
+                                                                <span class="review-o__name">Thu Phương</span>
+
+                                                                <span class="review-o__date">27 Feb 2023 15:51:13</span></div>
+                                                                <!-- <div class="gl-rating-style-2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i> -->
+                                                            <div class="review-o__rating gl-rating-style u-s-m-b-8"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                                                                <span>(2)</span></div>
+                                                            <p class="review-o__text">Mình tưởng nó sẽ nhẹ ai dè nó hơi nặng, có cảm giác hơi không thoải mái</p>
+                                                        </div>
+                                                        <div class="review-o u-s-m-b-15">
+                                                            <div class="review-o__info u-s-m-b-8">
+
+                                                                <span class="review-o__name">Hoài Hân</span>
+
+                                                                <span class="review-o__date">19 Oct 2023 10:57:43</span></div>
+                                                            <div class="review-o__rating gl-rating-style u-s-m-b-8"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+
+                                                                <span>(4)</span></div>
+                                                            <p class="review-o__text">Chất lượng cũng okie, màu sắc chưa hợp ý mình lắm</p>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="u-s-m-b-30">
+                                                <form class="pd-tab__rev-f2">
+                                                    <h2 class="u-s-m-b-15">Thêm đánh giá</h2>
+
+                                                    <span class="gl-text u-s-m-b-15">Email của bạn sẽ được bảo mật, đảm bảo sự an toàn riêng tư cho bạn</span>
+                                                    <div class="u-s-m-b-30">
+                                                        <div class="rev-f2__table-wrap gl-scroll">
+                                                            <table class="rev-f2__table">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>
+                                                                            <div class="gl-rating-style-2"><i class="fas fa-star"></i>
+
+                                                                                <span>(1)</span></div>
+                                                                        </th>
+                                                                        <th>
+                                                                            <div class="gl-rating-style-2"><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+
+                                                                                <span>(1.5)</span></div>
+                                                                        </th>
+                                                                        <th>
+                                                                            <div class="gl-rating-style-2"><i class="fas fa-star"></i><i class="fas fa-star"></i>
+
+                                                                                <span>(2)</span></div>
+                                                                        </th>
+                                                                        <th>
+                                                                            <div class="gl-rating-style-2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+
+                                                                                <span>(2.5)</span></div>
+                                                                        </th>
+                                                                        <th>
+                                                                            <div class="gl-rating-style-2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+
+                                                                                <span>(3)</span></div>
+                                                                        </th>
+                                                                        <th>
+                                                                            <div class="gl-rating-style-2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+
+                                                                                <span>(3.5)</span></div>
+                                                                        </th>
+                                                                        <th>
+                                                                            <div class="gl-rating-style-2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+
+                                                                                <span>(4)</span></div>
+                                                                        </th>
+                                                                        <th>
+                                                                            <div class="gl-rating-style-2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+
+                                                                                <span>(4.5)</span></div>
+                                                                        </th>
+                                                                        <th>
+                                                                            <div class="gl-rating-style-2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+
+                                                                                <span>(5)</span></div>
+                                                                        </th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>
+
+                                                                            <!--====== Radio Box ======-->
+                                                                            <div class="radio-box">
+
+                                                                                <input type="radio" id="star-1" name="rating">
+                                                                                <div class="radio-box__state radio-box__state--primary">
+
+                                                                                    <label class="radio-box__label" for="star-1"></label></div>
+                                                                            </div>
+                                                                            <!--====== End - Radio Box ======-->
+                                                                        </td>
+                                                                        <td>
+
+                                                                            <!--====== Radio Box ======-->
+                                                                            <div class="radio-box">
+
+                                                                                <input type="radio" id="star-1.5" name="rating">
+                                                                                <div class="radio-box__state radio-box__state--primary">
+
+                                                                                    <label class="radio-box__label" for="star-1.5"></label></div>
+                                                                            </div>
+                                                                            <!--====== End - Radio Box ======-->
+                                                                        </td>
+                                                                        <td>
+
+                                                                            <!--====== Radio Box ======-->
+                                                                            <div class="radio-box">
+
+                                                                                <input type="radio" id="star-2" name="rating">
+                                                                                <div class="radio-box__state radio-box__state--primary">
+
+                                                                                    <label class="radio-box__label" for="star-2"></label></div>
+                                                                            </div>
+                                                                            <!--====== End - Radio Box ======-->
+                                                                        </td>
+                                                                        <td>
+
+                                                                            <!--====== Radio Box ======-->
+                                                                            <div class="radio-box">
+
+                                                                                <input type="radio" id="star-2.5" name="rating">
+                                                                                <div class="radio-box__state radio-box__state--primary">
+
+                                                                                    <label class="radio-box__label" for="star-2.5"></label></div>
+                                                                            </div>
+                                                                            <!--====== End - Radio Box ======-->
+                                                                        </td>
+                                                                        <td>
+
+                                                                            <!--====== Radio Box ======-->
+                                                                            <div class="radio-box">
+
+                                                                                <input type="radio" id="star-3" name="rating">
+                                                                                <div class="radio-box__state radio-box__state--primary">
+
+                                                                                    <label class="radio-box__label" for="star-3"></label></div>
+                                                                            </div>
+                                                                            <!--====== End - Radio Box ======-->
+                                                                        </td>
+                                                                        <td>
+
+                                                                            <!--====== Radio Box ======-->
+                                                                            <div class="radio-box">
+
+                                                                                <input type="radio" id="star-3.5" name="rating">
+                                                                                <div class="radio-box__state radio-box__state--primary">
+
+                                                                                    <label class="radio-box__label" for="star-3.5"></label></div>
+                                                                            </div>
+                                                                            <!--====== End - Radio Box ======-->
+                                                                        </td>
+                                                                        <td>
+
+                                                                            <!--====== Radio Box ======-->
+                                                                            <div class="radio-box">
+
+                                                                                <input type="radio" id="star-4" name="rating">
+                                                                                <div class="radio-box__state radio-box__state--primary">
+
+                                                                                    <label class="radio-box__label" for="star-4"></label></div>
+                                                                            </div>
+                                                                            <!--====== End - Radio Box ======-->
+                                                                        </td>
+                                                                        <td>
+
+                                                                            <!--====== Radio Box ======-->
+                                                                            <div class="radio-box">
+
+                                                                                <input type="radio" id="star-4.5" name="rating">
+                                                                                <div class="radio-box__state radio-box__state--primary">
+
+                                                                                    <label class="radio-box__label" for="star-4.5"></label></div>
+                                                                            </div>
+                                                                            <!--====== End - Radio Box ======-->
+                                                                        </td>
+                                                                        <td>
+
+                                                                            <!--====== Radio Box ======-->
+                                                                            <div class="radio-box">
+
+                                                                                <input type="radio" id="star-5" name="rating">
+                                                                                <div class="radio-box__state radio-box__state--primary">
+
+                                                                                    <label class="radio-box__label" for="star-5"></label></div>
+                                                                            </div>
+                                                                            <!--====== End - Radio Box ======-->
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                    <div class="rev-f2__group">
+                                                        <div class="u-s-m-b-15">
+
+                                                            <label class="gl-label" for="reviewer-text">Đánh giá của bạn *</label><textarea class="text-area text-area--primary-style" id="reviewer-text"></textarea></div>
+                                                        <div>
+                                                            <p class="u-s-m-b-30">
+
+                                                                <label class="gl-label" for="reviewer-name">Tên *</label>
+
+                                                                <input class="input-text input-text--primary-style" type="text" id="reviewer-name"></p>
+                                                            <p class="u-s-m-b-30">
+
+                                                                <label class="gl-label" for="reviewer-email">Địa chỉ Email *</label>
+
+                                                                <input class="input-text input-text--primary-style" type="text" id="reviewer-email"></p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+
+                                                        <button class="btn btn--e-brand-shadow" type="submit">Gửi đánh giá</button></div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--====== End - Tab 3 ======-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--====== End - Product Detail Tab ======-->
+            <div class="u-s-p-b-90">
+
+                <!--====== Section Intro ======-->
+                <div class="section__intro u-s-m-b-46">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="section__text-wrap">
+                                    <h1 class="section__heading u-c-secondary u-s-m-b-12">Sản Phẩm Nổi Bật</h1>
+
+                                    <span class="section__span u-c-grey">Có thể bạn quan tâm</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--====== End - Section Intro ======-->
+
+
+                <!--====== Section Content ======-->
+                <div class="section__content">
+                    <div class="container">
+                        <div class="slider-fouc">
+                            <div class="owl-carousel product-slider" data-item="4">
+                                <div class="u-s-m-b-30">
+                                    <div class="product-o product-o--hover-on">
+                                        <div class="product-o__wrap">
+
+                                            <a class="aspect aspect--bg-grey aspect--square u-d-block" href="product-detail-variable.html">
+
+                                                <img class="aspect__img" src="https://i.pinimg.com/474x/69/72/29/697229b5466a135bbd1b368a31a92215.jpg" alt=""></a>
+                                            <div class="product-o__action-wrap">
+                                                <ul class="product-o__action-list">
+                                                    <li>
+                                                        <a data-modal="modal" data-modal-id="#quick-look" data-tooltip="tooltip" data-placement="top" title="Xem nhanh"><i class="fas fa-search-plus"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-modal="modal" data-modal-id="#add-to-cart" data-tooltip="tooltip" data-placement="top" title="Thêm vào giỏ hàng"><i class="fas fa-plus-circle"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="signin.html" data-tooltip="tooltip" data-placement="top" title="Nhận thông báo khi sản phẩm hạ giá"><i class="fas fa-envelope"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <span class="product-o__category">
+
+                                            <a href="shop-grid-left.html">Giày</a></span>
+
+                                        <span class="product-o__name">
+
+                                            <a href="product-detail-variable.html">Giày Caravat 3cm</a></span>
+                                        <div class="product-o__rating gl-rating-style"> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+
+                                            <span class="product-o__review">(17)</span></div>
+
+                                        <span class="product-o__price">625,000₫
+
+                                            <span class="product-o__discount">700,000₫</span></span>
+                                    </div>
+                                </div>
+                                <div class="u-s-m-b-30">
+                                    <div class="product-o product-o--hover-on">
+                                        <div class="product-o__wrap">
+
+                                            <a class="aspect aspect--bg-grey aspect--square u-d-block" href="product-detail-variable.html">
+
+                                                <img class="aspect__img" src="https://i.pinimg.com/474x/d2/28/76/d228765f2b52069889c7eebfdd4f6d21.jpg" alt=""></a>
+                                            <div class="product-o__action-wrap">
+                                                <ul class="product-o__action-list">
+                                                    <li>
+                                                        <a data-modal="modal" data-modal-id="#quick-look" data-tooltip="tooltip" data-placement="top" title="Xem nhanh"><i class="fas fa-search-plus"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-modal="modal" data-modal-id="#add-to-cart" data-tooltip="tooltip" data-placement="top" title="Thêm vào giỏ hàng"><i class="fas fa-plus-circle"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="signin.html" data-tooltip="tooltip" data-placement="top" title="Nhận thông báo khi sản phẩm hạ giá"><i class="fas fa-envelope"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <span class="product-o__category">
+
+                                            <a href="shop-grid-left.html">Túi </a></span>
+
+                                        <span class="product-o__name">
+
+                                            <a href="product-detail-variable.html">Túi cói Minifren</a></span>
+                                        <div class="product-o__rating gl-rating-style"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+
+                                            <span class="product-o__review">(1)</span></div>
+
+                                        <span class="product-o__price">1.125.000₫
+
+                                            <!-- <span class="product-o__discount">$160.00</span></span> -->
+                                    </div>
+                                </div>
+                                <div class="u-s-m-b-30">
+                                    <div class="product-o product-o--hover-on">
+                                        <div class="product-o__wrap">
+
+                                            <a class="aspect aspect--bg-grey aspect--square u-d-block" href="product-detail-variable.html">
+
+                                                <img class="aspect__img" src="https://i.pinimg.com/474x/db/76/e1/db76e15dc13017d46772ba72ff065085.jpg" alt=""></a>
+                                            <div class="product-o__action-wrap">
+                                                <ul class="product-o__action-list">
+                                                    <li>
+                                                        <a data-modal="modal" data-modal-id="#quick-look" data-tooltip="tooltip" data-placement="top" title="Xem nhanh"><i class="fas fa-search-plus"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-modal="modal" data-modal-id="#add-to-cart" data-tooltip="tooltip" data-placement="top" title="Thêm vào giỏ hàng"><i class="fas fa-plus-circle"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="signin.html" data-tooltip="tooltip" data-placement="top" title="Nhận thông báo khi sản phẩm hạ giá"><i class="fas fa-envelope"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <span class="product-o__category">
+
+                                            <a href="shop-grid-left.html">Trang sức</a></span>
+
+                                        <span class="product-o__name">
+
+                                            <a href="product-detail-variable.html">Khuyên tai ngọc trai Frances</a></span>
+                                        <div class="product-o__rating gl-rating-style"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+
+
+                                            <span class="product-o__review">(4)</span></div>
+
+                                        <span class="product-o__price">3.125.000₫
+
+                                            <!-- <span class="product-o__discount">$160.00</span></span> -->
+                                    </div>
+                                </div>
+                                <div class="u-s-m-b-30">
+                                    <div class="product-o product-o--hover-on">
+                                        <div class="product-o__wrap">
+
+                                            <a class="aspect aspect--bg-grey aspect--square u-d-block" href="product-detail-variable.html">
+
+                                                <img class="aspect__img" src="https://i.pinimg.com/474x/31/a6/ab/31a6ab25a8264ee1d328a39b85cda6aa.jpg" alt=""></a>
+                                            <div class="product-o__action-wrap">
+                                                <ul class="product-o__action-list">
+                                                    <li>
+                                                        <a data-modal="modal" data-modal-id="#quick-look" data-tooltip="tooltip" data-placement="top" title="Xem nhanh"><i class="fas fa-search-plus"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-modal="modal" data-modal-id="#add-to-cart" data-tooltip="tooltip" data-placement="top" title="Thêm vào giỏ hàng"><i class="fas fa-plus-circle"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="signin.html" data-tooltip="tooltip" data-placement="top" title="Nhận thông báo khi sản phẩm hạ giá"><i class="fas fa-envelope"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <span class="product-o__category">
+
+                                            <a href="shop-grid-left.html">Phụ Kiện</a></span>
+
+                                        <span class="product-o__name">
+
+                                            <a href="product-detail-variable.html">Khăn Raffia Lụa</a></span>
+                                        <div class="product-o__rating gl-rating-style"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+
+                                            <span class="product-o__review">(20)</span></div>
+
+                                        <span class="product-o__price">125,000₫
+                                            <span class="product-o__discount">250,000₫</span></span>
+                                    </div>
+                                </div>
+                                <div class="u-s-m-b-30">
+                                    <div class="product-o product-o--hover-on">
+                                        <div class="product-o__wrap">
+
+                                            <a class="aspect aspect--bg-grey aspect--square u-d-block" href="product-detail-variable.html">
+
+                                                <img class="aspect__img" src="https://i.pinimg.com/474x/03/71/ee/0371ee012befbcf64db1aba354f238fe.jpg" alt=""></a>
+                                            <div class="product-o__action-wrap">
+                                                <ul class="product-o__action-list">
+                                                    <li>
+                                                        <a data-modal="modal" data-modal-id="#quick-look" data-tooltip="tooltip" data-placement="top" title="Xem nhanh"><i class="fas fa-search-plus"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-modal="modal" data-modal-id="#add-to-cart" data-tooltip="tooltip" data-placement="top" title="Thêm vào giỏ hàng"><i class="fas fa-plus-circle"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="signin.html" data-tooltip="tooltip" data-placement="top" title="Nhận thông báo khi sản phẩm hạ giá"><i class="fas fa-envelope"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <span class="product-o__category">
+
+                                            <a href="shop-grid-left.html">Váy</a></span>
+
+                                        <span class="product-o__name">
+
+                                            <a href="product-detail-variable.html">Váy sơ mi tay dài linen Aelia</a></span>
+                                        <div class="product-o__rating gl-rating-style"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                            <span class="product-o__review">(11)</span></div>
+
+                                        <span class="product-o__price">425.000₫
+
+                                            <span class="product-o__discount">900.000₫</span></span>
+                                    </div>
+                                </div>
+                                <div class="u-s-m-b-30">
+                                    <div class="product-o product-o--hover-on">
+                                        <div class="product-o__wrap">
+
+                                            <a class="aspect aspect--bg-grey aspect--square u-d-block" href="product-detail-variable.html">
+
+                                                <img class="aspect__img" src="https://i.pinimg.com/474x/48/ff/8d/48ff8d9c546b1f523212eb34f19e3637.jpg" alt=""></a>
+                                            <div class="product-o__action-wrap">
+                                                <ul class="product-o__action-list">
+                                                    <li>
+                                                        <a data-modal="modal" data-modal-id="#quick-look" data-tooltip="tooltip" data-placement="top" title="Xem nhanh"><i class="fas fa-search-plus"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-modal="modal" data-modal-id="#add-to-cart" data-tooltip="tooltip" data-placement="top" title="Thêm vào giỏ hàng"><i class="fas fa-plus-circle"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="signin.html" data-tooltip="tooltip" data-placement="top" title="Nhận thông báo khi sản phẩm hạ giá"><i class="fas fa-envelope"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <span class="product-o__category">
+
+                                            <a href="shop-grid-left.html">Phụ kiện</a></span>
+
+                                        <span class="product-o__name">
+
+                                            <a href="product-detail-variable.html">Thắt lưng Quadro Raffia</a></span>
+                                        <div class="product-o__rating gl-rating-style"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i>
+
+                                            <span class="product-o__review">(18)</span></div>
+
+                                        <span class="product-o__price">725.000₫
+
+                                            <span class="product-o__discount">900.000₫</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--====== End - Section Content ======-->
+            </div>
+            <!--====== End - Section 1 ======-->
+        </div>
+        <!--====== End - App Content ======-->
+
+
+        <!--====== Main Footer ======-->
+        <footer>
+            <div class="outer-footer">
+            <!-- app.css -->
+                <div class="container">
+                <!-- vender.css -->
+                    <div class="row">
+                    <!-- vender.css -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="outer-footer__content u-s-m-b-40">
+                            <!-- app.css -->
+                                <span class="outer-footer__content-title">LIÊN HỆ</span>
+                                <div class="outer-footer__text-wrap"><i class="fas fa-home"></i>
+                                <!-- icon ngôi nhà -->
+                                    <span>279 Nguyễn Tri Phương, P5, Q10, TPHCM<br>(8:00 - 20:00 thứ hai đến thứ bảy)</span></div>
+                                <div class="outer-footer__text-wrap"><i class="fas fa-phone-volume"></i>
+                                <!-- icon điện thoại -->
+                                    <span>(+84) 909 909 909</span></div>
+                                <div class="outer-footer__text-wrap"><i class="far fa-envelope"></i>
+                                <!-- icon thư -->
+                                    <span>leinne.contact@gmail.com</span></div>
+
+                                <div class="outer-footer__social">
+                                    <ul>
+                                        <li>
+                                            <a class="s-fb--color-hover" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <!-- <li>
+                                            <a class="s-tw--color-hover" href="#"><i class="fab fa-twitter"></i></a></li> -->
+                                        <li>
+                                            <a class="s-youtube--color-hover" href="#"><i class="fab fa-youtube"></i></a></li>
+                                        <li>
+                                            <a class="s-insta--color-hover" href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li>
+                                            <a class="s-gplus--color-hover" href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                        <!-- gộp của 2 cột THÔNG TIN và KHÁM PHÁ -->
+                            <div class="row">
+                            <!-- chia cột cho THÔNG TIN -->
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                                    <div class="outer-footer__content u-s-m-b-40">
+                                        <span class="outer-footer__content-title">THÔNG TIN</span>
+                                        <div class="outer-footer__list-wrap">
+                                        <!-- có định dạng font, màu sắc, margin, transition -->
+                                            <ul>
+                                                <li>
+                                                    <a>Về Leinné</a></li>
+                                                <li>
+                                                    <a>Các cửa hàng</a></li>
+                                                <li>
+                                                    <a>Báo chí</a></li>
+                                                <li>
+                                                    <a>Tuyển dụng</a></li>
+                                                <li>
+                                                    <a>Quy trình sản xuất</a></li>
+                                                <li>
+                                                    <a>Trở thành đối tác</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- cột KHÁM PHÁ -->
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                                    <div class="outer-footer__content u-s-m-b-40">
+                                        <div class="outer-footer__list-wrap">
+                                            <span class="outer-footer__content-title">KHÁM PHÁ</span>
+                                            <ul> 
+                                                <li>
+                                                    <a>Bảo quản sản phẩm</a></li>
+                                                <li>
+                                                    <a>Dịch vụ bảo hành</a></li>
+                                                <li>
+                                                    <a>Câu hỏi thường gặp</a></li>
+                                                <li>
+                                                    <a>Chính sách đổi trả</a></li>
+                                                <li>
+                                                    <a>Điều khoản dịch vụ</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-12">
+                            <div class="outer-footer__content">
+                                <span class="outer-footer__content-title">ĐĂNG KÝ</span>
+                                <form class="newsletter"> 
+                                <!-- 13 app.css -->
+                                    <div class="u-s-m-b-15">
+                                        <!-- nút lựa chọn giới tính nam -->
+                                        <div class="radio-box newsletter__radio">
+                                        <!-- app.css -->
+                                            <input type="radio" id="male" name="gender">
+                                            <div class="radio-box__state radio-box__state--primary">
+                                                <label class="radio-box__label" for="male">Nam</label></div>
+                                        </div>
+                                        <!-- nút lựa chọn giới tính nam -->
+                                        <div class="radio-box newsletter__radio">
+                                            <input type="radio" id="female" name="gender">
+                                            <div class="radio-box__state radio-box__state--primary">
+                                                <label class="radio-box__label" for="female">Nữ</label></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="newsletter__group">
+                                    <!-- app.css -->
+                                        <label for="newsletter"></label>
+                                        <input class="input-text input-text--only-white" type="text" id="newsletter" placeholder="Địa chỉ Email">
+
+                                        <button class="btn btn--e-brand newsletter__btn" type="submit">Đăng ký</button></div>
+
+                                    <span class="newsletter__text">Đăng ký để nhận thông báo về các sự kiện, ưu đãi và những bất ngờ đặc biệt chỉ dành riêng cho bạn.</span>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--====== Modal Section ======-->
+
+        <!--====== Quick Look Modal ======-->
+        <div class="modal fade" id="quick-look">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content modal--shadow">
+
+                    <button class="btn dismiss-button fas fa-times" type="button" data-dismiss="modal"></button>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-lg-5">
+
+                                <!--====== Product Breadcrumb ======-->
+                                <div class="pd-breadcrumb u-s-m-b-30">
+                                    <ul class="pd-breadcrumb__list">
+                                        <li class="has-separator">
+
+                                            <a href="shop-grid-left.html">Cửa hàng</a></li>
+                                        <li class="has-separator">
+
+                                            <a href="shop-grid-left.html">Giày</a></li>
+                                        <li class="is-marked">
+
+                                            <a href="shop-grid-left.html">Bãi biển Slides phiên bản giới hạn</a></li>
+                                    </ul>
+                                </div>
+                                <!--====== End - Product Breadcrumb ======-->
+
+
+                                <!--====== Product Detail ======-->
+                                <div class="pd u-s-m-b-30">
+                                    <div class="pd-wrap">
+                                        <div id="js-product-detail-modal">
+                                            <div>
+
+                                                <img class="u-img-fluid" src="https://i.pinimg.com/736x/b3/f7/96/b3f79694f9aa5d8008212e0e30c3b3d0.jpg" alt=""></div>
+                                            <div>
+
+                                                <img class="u-img-fluid" src="https://i.pinimg.com/474x/34/47/3d/34473d7a58d55f4660165fd3fb613067.jpg" alt=""></div>
+                                            <div>
+
+                                                <img class="u-img-fluid" src="https://i.pinimg.com/474x/4b/b0/16/4bb016fa82bcc9252695cc1779d13611.jpg" alt=""></div>
+                                            <div>
+
+                                                <img class="u-img-fluid" src="https://i.pinimg.com/474x/b3/f7/96/b3f79694f9aa5d8008212e0e30c3b3d0.jpg" alt=""></div>
+                                            <div>
+
+                                                <img class="u-img-fluid" src="https://i.pinimg.com/474x/65/08/39/6508399c7d22d59861ea8f2f501ae07e.jpg" alt=""></div>
+                                        </div>
+                                    </div>
+                                    <div class="u-s-m-t-15">
+                                        <div id="js-product-detail-modal-thumbnail">
+                                            <div>
+
+                                                <img class="u-img-fluid" src="https://i.pinimg.com/736x/b3/f7/96/b3f79694f9aa5d8008212e0e30c3b3d0.jpg" alt=""></div>
+                                            <div>
+
+                                                <img class="u-img-fluid" src="https://i.pinimg.com/474x/34/47/3d/34473d7a58d55f4660165fd3fb613067.jpg" alt=""></div>
+                                            <div>
+
+                                                <img class="u-img-fluid" src="https://i.pinimg.com/474x/4b/b0/16/4bb016fa82bcc9252695cc1779d13611.jpg" alt=""></div>
+                                            <div>
+
+                                                <img class="u-img-fluid" src="https://i.pinimg.com/474x/b3/f7/96/b3f79694f9aa5d8008212e0e30c3b3d0.jpg" alt=""></div>
+                                            <div>
+
+                                                <img class="u-img-fluid" src="https://i.pinimg.com/474x/65/08/39/6508399c7d22d59861ea8f2f501ae07e.jpg" alt=""></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--====== End - Product Detail ======-->
+                            </div>
+                            <div class="col-lg-7">
+
+                                <!--====== Product Right Side Details ======-->
+                                <div class="pd-detail">
+                                    <div>
+
+                                        <span class="pd-detail__name">Bãi biển Slides phiên bản giới hạn</span></div>
+                                    <div>
+                                        <div class="pd-detail__inline">
+
+                                            <span class="pd-detail__price">3,627,000₫</span>
+
+                                            <span class="pd-detail__discount">(-20%)</span><del class="pd-detail__del">4,543,000₫</del></div>
+                                    </div>
+                                    <div class="u-s-m-b-15">
+                                        <div class="pd-detail__rating gl-rating-style"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+
+                                            <span class="pd-detail__review u-s-m-l-4">
+
+                                                <a href="product-detail-variable.html">23 đánh giá</a></span></div>
+                                    </div>
+                                    <div class="u-s-m-b-15">
+                                        <div class="pd-detail__inline">
+
+                                            <span class="pd-detail__stock">còn 58 sản phẩm</span>
+
+                                            <!-- <span class="pd-detail__left">Only 2 left</span> -->
+                                        </div>
+                                    </div>
+                                    <div class="u-s-m-b-15">
+
+                                        <span class="pd-detail__preview-desc">Một tác phẩm nghệ thuật từ bản chất thô, mộc mạc - Beach Slides phiên bản giới hạn ở Raffia là sự hài hòa của màu sắc và vật liệu tự nhiên. Chủ đề Raffia được nhuộm bằng tay từ thực vật: lá trà, lá cây gỗ sappan và nghệ, bằng tay của thợ thủ công của chúng tôi. Mỗi cặp có màu sắc khác nhau và độc đáo, với các đường ngoằn ngoèo như một điểm nhấn, mang một tinh thần du lịch phiêu lưu.</span></div>
+                             
+                                    <div class="u-s-m-b-15">
+                                        <div class="pd-detail__inline">
+
+                                            <span class="pd-detail__click-wrap"><i class="far fa-envelope u-s-m-r-6"></i>
+
+                                                <a href="signin.html">Liên lạc với tôi khi sản phẩm hạ giá</a>
+
+                                                <span class="pd-detail__click-count">(27)</span></span></div>
+                                    </div>
+                                    <div class="u-s-m-b-15">
+                                        <ul class="pd-social-list">
+                                            <li>
+
+                                                <a class="s-fb--color-hover" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li>
+
+                                                <a class="s-youtube--color-hover" href="#"><i class="fab fa-youtube"></i></a></li>
+                                            <!-- <li>
+
+                                                <a class="s-tw--color-hover" href="#"><i class="fab fa-twitter"></i></a></li> -->
+                                            <li>
+
+                                                <a class="s-insta--color-hover" href="#"><i class="fab fa-instagram"></i></a></li>
+                                            <!-- <li>
+
+                                                <a class="s-wa--color-hover" href="#"><i class="fab fa-whatsapp"></i></a></li> -->
+                                            <li>
+
+                                                <a class="s-gplus--color-hover" href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="u-s-m-b-15">
+                                        <form class="pd-detail__form">
+                                            <div class="pd-detail-inline-2">
+                                                <div class="u-s-m-b-15">
+
+                                                    <!--====== Input Counter ======-->
+                                                    <div class="input-counter">
+
+                                                        <span class="input-counter__minus fas fa-minus"></span>
+
+                                                        <input class="input-counter__text input-counter--text-primary-style" type="text" value="1" data-min="1" data-max="1000">
+
+                                                        <span class="input-counter__plus fas fa-plus"></span></div>
+                                                    <!--====== End - Input Counter ======-->
+                                                </div>
+                                                <div class="u-s-m-b-15">
+
+                                                    <button class="btn btn--e-brand-b-2" type="submit">Thêm vào giỏ hàng</button></div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="u-s-m-b-15">
+
+                                        <span class="pd-detail__label u-s-m-b-8">Chính sách sản phẩm:</span>
+                                        <ul class="pd-detail__policy-list">
+                                            <li><i class="fas fa-check-circle u-s-m-r-8"></i>
+
+                                                <span>Bảo vệ người tiêu dùng</span></li>
+                                            <li><i class="fas fa-check-circle u-s-m-r-8"></i>
+
+                                                <span>Cam két hoàn tiền nếu nhận được sản phẩm không đúng mô tả</span></li>
+                                            <li><i class="fas fa-check-circle u-s-m-r-8"></i>
+
+                                                <span>Đổi trả hàng trong 7 ngày tính từ khi nhận hàng.</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!--====== End - Product Right Side Details ======-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====== End - Quick Look Modal ======-->
+
+        <!--====== Add to Cart Modal ======-->
+        <div class="modal fade" id="add-to-cart">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content modal-radius modal-shadow">
+
+                    <button class="btn dismiss-button fas fa-times" type="button" data-dismiss="modal"></button>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12">
+                                <div class="success u-s-m-b-30">
+                                    <div class="success__text-wrap"><i class="fas fa-check"></i>
+
+                                        <span>Sản phẩm được thêm thành công vào giỏ hàng!</span></div>
+                                    <div class="success__img-wrap">
+
+                                        <img class="u-img-fluid" src="https://i.pinimg.com/736x/b3/f7/96/b3f79694f9aa5d8008212e0e30c3b3d0.jpg" alt=""></div>
+                                    <div class="success__info-wrap">
+
+                                        <span class="success__name">Bãi biển Slides phiên bản giới hạn</span>
+
+                                        <span class="success__quantity">Số lượng: 1</span>
+
+                                        <span class="success__price">3,627,000₫</span></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <div class="s-option">
+
+                                    <span class="s-option__text">2 sản phẩm trong giỏ hàng</span>
+                                    <div class="s-option__link-box">
+
+                                        <a class="s-option__link btn--e-white-brand-shadow" data-dismiss="modal">TIẾP TỤC MUA SẮM</a>
+
+                                        <a class="s-option__link btn--e-white-brand-shadow" href="cart.html">XEM GIỎ HÀNG</a>
+
+                                        <a class="s-option__link btn--e-brand-shadow" href="checkout.html">THANH TOÁN</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====== End - Thêm vào giỏ hàng Modal ======-->
+        <!--====== End - Modal Section ======-->
+    </div>
+    <!--====== End - Main App ======-->
+
+    
+
+
+    <!--====== Google Analytics: change UA-XXXXX-Y to be your site's ID ======-->
+    <script>
+        window.ga = function() {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+    <!--====== Vendor Js ======-->
+    <script src="js/vendor.js"></script>
+
+    <!--====== jQuery Shopnav plugin ======-->
+    <script src="js/jquery.shopnav.js"></script>
+
+    <!--====== App ======-->
+    <script src="js/app.js"></script>
+
+    <!--====== Noscript ======-->
+    <noscript>
+        <div class="app-setting">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="app-setting__wrap">
+                            <h1 class="app-setting__h1">JavaScript is disabled in your browser.</h1>
+
+                            <span class="app-setting__text">Please enable JavaScript in your browser or upgrade to a JavaScript-capable browser.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </noscript>
+</body>
+</html>
